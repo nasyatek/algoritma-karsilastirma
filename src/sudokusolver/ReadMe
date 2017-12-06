@@ -1,0 +1,13 @@
+Classlar ve  içerikleri;
+
+Main : Main metot bulunan class, backtracking ya da simulating a. yöntemlerini çağırabiliriz.
+Helper : İki adet sudoku örneği mevcut.
+         printSudoku(Sudoku s) verilen sudokuyu ekrana basar
+         isValid(Sudoku s) verilen sudokuyu kontrol eder, private metotlar kullanır.
+         getSudokuKolay-Zor()   Sudoku örneklerini verir.
+BacktrackingYontemi : Verilen sudokuyu bt yöntemine göre çözer. kontrol işlemini Helper
+                      sınıfının isValid(Sudoku s) metodu ile yapar.
+SimuAnelYontemi     : Verilen sudokuyu benzetimli tavlama algoritması ile çözer.
+                      Helper sınıfından sadece sudoku alır. Conflict durumunu karşılaştırarak
+                      sıcaklığı günceller. Çözüm üretemeyebilir.
+Karşılaştırma : Sudoku çözümü için backtrackking algoritması daha uygundur.
